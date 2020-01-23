@@ -27,3 +27,5 @@ The Offset finder currently only works for the children's version of ATEC, asses
 ## Important notes:
 * If the offset is negative, the graph may not be accurate, but the audio tracks will be accurate when "play comparison audio" is pressed.
 * The "Save results to file" button will print the results to the python console. This was found to be faster then saving the results to a text file and having to open the file to view the results. This can be reversed by commenting/uncommenting the code in the _save_file function.
+* Correct Offset Graph: ![](/screenshots/correctPositiveOffsetGraph.png)
+* inCorrect Offset Graph: ![](/screenshots/incorrectPositionOffsetGraph.png)
